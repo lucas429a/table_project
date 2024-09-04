@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    max-height: 100vh;
+    background-color: white;
+    height: 100vh;
+}
+
+.table1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 8rem;
+    background-color: #D4D4D4;
+    color: black;
+    font-size: 1rem;
+}
+
+.tableheader{
+    background-color: #008000;
+    color: white;
+    padding: 1rem;
+    border: black solid 1px ;
+    font-weight: 800;
+}
+
+.tablecards1{
+    background-color:  #D4D4D4;
+    color: black;
+    padding: 1rem;
+    border: black solid 1px ;
+}
+
+.tablecards2{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: black solid 1px ;
+}
+
+
+.tabela{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: black solid 0.125rem ;
+}
